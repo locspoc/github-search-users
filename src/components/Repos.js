@@ -82,11 +82,12 @@ const Repos = () => {
 		<section className="section">
 			<Wrapper className="section-center">
 				<Pie3D data={mostUsed} />
-				{/* <Column3D data={stars} /> */}
-				<Column3D data={chartData} />
-				{/* <Doughnut2D data={mostPopular} /> */}
-				<Doughnut2D data={chartData} />
-				<Bar3D data={chartData} />
+				<Column3D data={stars} />
+				{/* <Column3D data={chartData} /> */}
+				<Doughnut2D data={mostPopular} />
+				{/* <Doughnut2D data={chartData} /> */}
+				<Bar3D data={forks} />
+				{/* <Bar3D data={chartData} /> */}
 				{/* <ExampleChart data={chartData} /> */}
 				<div></div>
 			</Wrapper>
