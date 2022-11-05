@@ -62,9 +62,10 @@ const Repos = () => {
 		<section className="section">
 			<Wrapper className="section-center">
 				<Pie3D data={mostUsed} />
-				<div></div>
+				<Column3D data={chartData} />
 				{/* <Doughnut2D data={mostPopular} /> */}
 				<Doughnut2D data={chartData} />
+				<Bar3D data={chartData} />
 				{/* <ExampleChart data={chartData} /> */}
 				<div></div>
 			</Wrapper>
