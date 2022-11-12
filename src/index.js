@@ -5,8 +5,11 @@ import App from "./App";
 import * as serviceWorker from "./serviceWorker";
 import { GithubProvider } from "./context/context";
 import { Auth0Provider } from "@auth0/auth0-react";
-const domain = `${process.env.AUTH0_DOMAIN}`;
-const clientId = `${process.env.AUTH0_CLIENTID}`;
+export const domain = `${process.env.REACT_APP_AUTH0_DOMAIN}`;
+export const clientId = `${process.env.REACT_APP_AUTH0_CLIENTID}`;
+
+// console.log("clientId: ", clientId);
+// console.log("clientId: ", process.env.REACT_APP_AUTH0_CLIENTID);
 
 // ${process.env.AUTH0_DOMAIN};
 ReactDOM.render(
